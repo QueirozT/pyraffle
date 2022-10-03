@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyraffle"
+version = "0.1.0"
+description = "Realize sorteios com, ou sem, repetições de sorteados, através da importação de um arquivo .txt contendo os nomes."
+authors = ["Marcos Raulino <marcosfsraulino@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = "^0.6.0"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+blue = "^0.9.1"
+isort = "^5.10.1"
+mkdocs = "^1.3.1"
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
