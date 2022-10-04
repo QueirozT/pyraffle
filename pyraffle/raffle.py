@@ -1,6 +1,6 @@
 from random import choice, sample
 from loguru import logger
-from log_handlers import Handler
+from pyraffle.log_handlers import Handler
 
 
 class Raffle:

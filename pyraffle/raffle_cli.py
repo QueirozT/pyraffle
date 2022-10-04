@@ -1,7 +1,7 @@
 from pathlib import Path
 import click
 from loguru import logger
-from raffle import Raffle
+from pyraffle.raffle import Raffle
 
 
 @click.command(help='Realize sorteios com, ou sem, vencedores repetidos')
